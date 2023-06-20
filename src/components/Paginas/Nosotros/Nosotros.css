@@ -1,3 +1,54 @@
-div {
-    background-color: red;
+.divContenedorN {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.primerBloqueN {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.titN {
+    margin: 1rem;
+}
+
+.spanContenedorN {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+}
+
+.spanN {
+    display: block;
+    margin: 1rem 1rem;
+}
+
+.artMedio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxInfoN {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 4rem;
+}
+
+.textoN {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.imN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

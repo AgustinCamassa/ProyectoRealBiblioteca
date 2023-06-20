@@ -1,0 +1,58 @@
+.contenedorFooter {
+    margin: 5rem 0rem;
+}
+
+.parte1Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s5P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte2Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.s1P2 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2P2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

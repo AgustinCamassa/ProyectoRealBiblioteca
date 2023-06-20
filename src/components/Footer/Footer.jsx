@@ -1,37 +1,56 @@
 import React from 'react'
 import "./Footer.css"
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 
-const Footer = () => {
+export default function Footer() {
+
     return (
-        <footer>
-            <article>
-                <section>
+        <footer className='contenedorFooter'>
+            <article className='parte1Footer container'>
+
+                <section className='s1P1 col-3'>
                     <img src="./im.png" alt="" />
                 </section>
 
-                <section>
+                <section className='s2P1 col-3'>
                     <span>Ubicación</span>
                     <div><Link rel="stylesheet" href="" />Av. Santiago</div>
                 </section>
 
-                <section>
-                    <ul>
-                        <li><NavLink to={"/"}>Biblioteca Activa</NavLink></li>
-                        <li><NavLink to={"/paginas/nosotros"}>Nosotros</NavLink></li>
-                        <li><NavLink to={"/paginas/contacto"}>Contacto</NavLink></li>
-                        <li><NavLink to={"/paginas/asociate"}>¡Asociate!</NavLink></li>
-                    </ul>
+                <section className='s3P1 col-2'>
+                    <div><Link to={"/"}>Biblioteca Activa</Link></div>
+                    <div><Link to={"/paginas/nosotros"}>Nosotros</Link></div>
+                    <div><Link to={"/paginas/contacto"}>Contacto</Link></div>
+                    <div><Link to={"/paginas/asociate"}>¡Asociate!</Link></div>
                 </section>
 
-                <section></section>
+                <section className='s4P1 col-2'>
+                    <div><Link rel="stylesheet" href="" />Facebook</div>
+                    <div><Link rel="stylesheet" href="" />Twitter</div>
+                    <div><Link rel="stylesheet" href="" />Instagram</div>
+                </section>
+
+                <section className='s5P1 col-2'>
+                    <button><Link to={"/"}>Biblioteca Activa</Link></button>
+                </section>
+
             </article>
 
-            <article>
+            <article className='parte2Footer container'>
+
+                <section className='s1P2 col-8'>
+                    <h3>12345678910</h3>
+                    <h3>libreria@gmial.com</h3>
+                </section>
+
+                <section className='s2P2 col-4'>
+                    <button><Link to={"/"}>Terminos</Link></button>
+                    <button><Link to={"/"}>Privacidad</Link></button>
+                    <button><Link to={"/"}>Cookies</Link></button>
+                </section>
 
             </article>
+
         </footer>
     )
 }
-
-export default Footer

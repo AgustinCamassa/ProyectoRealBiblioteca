@@ -1,0 +1,93 @@
+.divContenedor {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.primerBloque {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textoB1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+}
+
+.imCar {
+    width: 0.1rem;
+    height: 16rem;
+}
+
+.segudoBloque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7rem;
+}
+
+
+
+
+
+.contenedorFooter {
+margin: 5rem 0rem;
+}
+
+.parte1Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s1P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s2P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s3P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s4P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.s5P1 {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.parte2Footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.s1P2 {
+display: grid;
+justify-content: center;
+align-items: center;
+}
+
+.s2P2 {
+display: flex;
+justify-content: center;
+align-items: center;
+}

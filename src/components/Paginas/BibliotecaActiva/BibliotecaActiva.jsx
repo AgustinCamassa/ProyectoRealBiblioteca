@@ -9,7 +9,7 @@ import Card from 'react-bootstrap/Card';
 const BibliotecaActiva = () => {
 
   return (
-    
+
     <div className='divContenedor'>
       <article className='primerBloque container'>
         <section className='textoB1 col-6'>
@@ -63,33 +63,39 @@ const BibliotecaActiva = () => {
         <Card style={{ width: '24rem' }}>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
-            <Card.Title>Card Title</Card.Title>
-            <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
-            </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: '24rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Espacios</Card.Title>
-            <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
-            </Card.Text>
-            <Button variant="primary">Servicios</Button>
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: '24rem' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
             <Card.Title>Actividades</Card.Title>
             <Card.Text>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
             </Card.Text>
-            <Button variant="primary">Go somewhere</Button>
+            <Link to='/paginas/actividades'>
+              <Button variant="primary">Actividades</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: '24rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Servicios</Card.Title>
+            <Card.Text>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
+            </Card.Text>
+            <Link to='/Servicios'>
+              <Button variant="primary">Servicios</Button>
+            </Link>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: '24rem' }}>
+          <Card.Img variant="top" src="holder.js/100px180" />
+          <Card.Body>
+            <Card.Title>Espacios  </Card.Title>
+            <Card.Text>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
+            </Card.Text>
+            <Link to='/Espacios'>
+              <Button variant="primary">Espacios</Button>
+            </Link>
           </Card.Body>
         </Card>
 

@@ -1,9 +1,128 @@
-import React from 'react'
+import { useRef, useState } from "react";
+import { InfoForm } from "./InfoForm/InfoForm";
+import "./Contacto.css";
+import emailjs from "@emailjs/browser";
+import FrequentQuestions from "./FrequentQuestions/FrequentQuestions";
 
 const Contacto = () => {
-  return (
-    <div>Contacto</div>
-  )
-}
+  const initialEmail = {
+    name: "",
+    email: "",
+    about: "",
+    message: "",
+  };
+  const [email, setEmail] = useState(initialEmail);
 
-export default Contacto
+  const infoInputs = [
+    { htmlFor: "name", content: "Nombre", type: "text", name: "user_name" },
+    { htmlFor: "email", content: "Email", type: "email", name: "user_email" },
+    {
+      htmlFor: "about",
+      content: "Asunto",
+      type: "text",
+      name: "contact_number",
+    },
+    {
+      htmlFor: "message",
+      content: "Mensaje",
+      type: "textarea",
+      name: "message",
+    },
+  ];
+
+  const inputValue = (evt) => {
+    let value = evt.target.value;
+    let inputName = evt.target.name;
+
+    let newState = { ...email };
+
+    newState[inputName] = value;
+    setEmail(newState);
+  };
+
+  const form = useRef();
+
+  const validateForm = () => {
+    return (
+      email.name === "" &&
+      email.about === "" &&
+      email.email === "" &&
+      email.message === ""
+    );
+  };
+
+  const resetForm = () => {
+    setEmail(initialEmail);
+  };
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_evt7wt9",
+        "template_y8h355s",
+        form.current,
+        "X2KYYDaiskyQPgdWn"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          form.current.reset();
+          resetForm();
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
+  return (
+    <main className="main">
+      <div className="divMain">
+        <section className="sectionDoubts">
+          <h2 className="titleForm">Formulario de Consultas</h2>
+          <p className="pForm">
+            Estamos encantados de resolver cualquier duda o consulta que tengas
+            de la biblioteca y brindarte toda la información que necesites. Por
+            favor, completa el siguiente formulario con tus datos personales y
+            una descripción detallada de tu consulta.
+          </p>
+          <div className="divForm">
+            <form ref={form} onSubmit={sendEmail}>
+              <div className="divInputs">
+                {infoInputs.map((i) => (
+                  <InfoForm
+                    key={i.htmlFor}
+                    htmlFor={i.htmlFor}
+                    content={i.content}
+                    type={i.type}
+                    name={i.name}
+                    onChange={inputValue}
+                  />
+                ))}
+              </div>
+              <div className="divButton">
+                <button disabled={validateForm()} className="btnForm">
+                  Enviar
+                </button>
+              </div>
+            </form>
+            <div className="divImg">
+              <img
+                src="https://dummyimage.com/300x400/000/fff"
+                alt="dummyImage"
+                className="imgForm"
+              />
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <FrequentQuestions />
+        </section>
+      </div>
+    </main>
+  );
+};
+
+export default Contacto;

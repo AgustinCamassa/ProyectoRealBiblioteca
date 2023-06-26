@@ -10,14 +10,14 @@ const BibliotecaActiva = () => {
 
   return (
 
-    <div className='divContenedor'>
-      <article className='primerBloque container'>
-        <section className='textoB1 col-6'>
+    <div className='divContenedor container'>
+      <article className='primerBloque row'>
+        <section className='textoB1 col-lg-6'>
           <h2>11.000 libros disponibles</h2>
           <span>En Biblioteca Pupular Belgrano, contamos con 11.000 volúmenes para todas las edades, gustos y necesidades, incluyendo una biblioteca especial para niños.</span>
         </section>
 
-        <section className='col-6'>
+        <section className='col-lg-6'>
           <Carousel data-bs-theme="dark">
             <Carousel.Item>
               <img
@@ -59,8 +59,9 @@ const BibliotecaActiva = () => {
       </article>
 
       <section className='segudoBloque container'>
+        <div className='row'>
 
-        <Card style={{ width: '24rem' }}>
+        <Card className='col-md-4' style={{ width: '' }}>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Actividades</Card.Title>
@@ -73,7 +74,7 @@ const BibliotecaActiva = () => {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '24rem' }}>
+        <Card className='col-md-4' style={{ width: '' }}>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Servicios</Card.Title>
@@ -86,7 +87,7 @@ const BibliotecaActiva = () => {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: '24rem' }}>
+        <Card className='col-md-4' style={{ width: '' }}>
           <Card.Img variant="top" src="holder.js/100px180" />
           <Card.Body>
             <Card.Title>Espacios  </Card.Title>
@@ -99,6 +100,7 @@ const BibliotecaActiva = () => {
           </Card.Body>
         </Card>
 
+        </div>
       </section>
     </div>
   )

@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { InfoForm } from "./InfoForm/InfoForm";
 import "./Contacto.css";
-import emailjs from "@emailjs/browser";
+//import emailjs from "@emailjs/browser";
 import FrequentQuestions from "./FrequentQuestions/FrequentQuestions";
 
 const Contacto = () => {

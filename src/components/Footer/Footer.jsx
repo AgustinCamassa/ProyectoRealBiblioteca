@@ -13,15 +13,15 @@ export default function Footer() {
                 </section>
 
                 <section className='s2P1 col-lg-3'>
-                    <span>Ubicación</span>
-                    <div><Link rel="stylesheet" href="" />Av. Santiago</div>
+                    <span>Ubicación de la Bilioteca</span>
+                    <div><Link rel="stylesheet" href="" />Av. Santiago del Estero, 425</div>
                 </section>
 
                 <section className='s3P1 col-lg-2'>
-                    <div><Link to={"/"}>Biblioteca Activa</Link></div>
-                    <div><Link to={"/paginas/nosotros"}>Nosotros</Link></div>
-                    <div><Link to={"/paginas/contacto"}>Contacto</Link></div>
-                    <div><Link to={"/paginas/asociate"}>¡Asociate!</Link></div>
+                    <div><Link className='linkExterno' to={"/"}>Biblioteca Activa</Link></div>
+                    <div><Link className='linkExterno' to={"/paginas/nosotros"}>Nosotros</Link></div>
+                    <div><Link className='linkExterno' to={"/paginas/contacto"}>Contacto</Link></div>
+                    <div><Link className='linkExterno' to={"/paginas/asociate"}>¡Asociate!</Link></div>
                 </section>
 
                 <section className='s4P1 col-lg-2'>
@@ -31,7 +31,7 @@ export default function Footer() {
                 </section>
 
                 <section className='s5P1 col-lg-2'>
-                    <button><Link to={"/"}>Biblioteca Activa</Link></button>
+                    <button className='botonSubir'><Link to={"/"}>/0/</Link></button>
                 </section>
 
             </article>
@@ -39,14 +39,14 @@ export default function Footer() {
             <article className='parte2Footer row'>
 
                 <section className='s1P2 col-lg-8'>
-                    <h3>12345678910</h3>
-                    <h3>libreria@gmial.com</h3>
+                    <p>12345678910</p>
+                    <p>libreria@gmial.com</p>
                 </section>
 
                 <section className='s2P2 col-lg-4'>
-                    <button><Link to={"/"}>Terminos</Link></button>
-                    <button><Link to={"/"}>Privacidad</Link></button>
-                    <button><Link to={"/"}>Cookies</Link></button>
+                    <button className='botonPriv'><Link className='linkPriv' to={"/"}>Terminos</Link></button>
+                    <button className='botonPriv'><Link className='linkPriv' to={"/"}>Privacidad</Link></button>
+                    <button className='botonPriv'><Link className='linkPriv' to={"/"}>Cookies</Link></button>
                 </section>
 
             </article>

@@ -5,44 +5,55 @@
 .parte1Footer {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
 }
 
 .s1P1 {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
 }
 
 .s2P1 {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
 }
 
 .s3P1 {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
+}
+
+.linkExterno {
+    text-decoration: none;
+    color: black;
 }
 
 .s4P1 {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
 }
 
 .s5P1 {
     display: grid;
     justify-content: center;
-    align-items: center;
+    align-items: first baseline;
+}
+
+.botonSubir {
+    border: 0;
+    text-decoration: none;
 }
 
 .parte2Footer {
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 5rem;
+    align-items: first baseline;
+    padding-top: 4rem;
+    margin-bottom: -4rem;
 }
 
 .s1P2 {
@@ -55,4 +66,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.botonPriv {
+    background-color: white;
+    border: 0;
+}
+
+.linkPriv {
+    text-decoration: none;
+    color: black;
 }

@@ -44,9 +44,9 @@ const Contacto = () => {
 
   const validateForm = () => {
     return (
-      email.name === "" &&
-      email.about === "" &&
-      email.email === "" &&
+      email.user_name === "" ||
+      email.contact_number === "" ||
+      email.user_email === "" ||
       email.message === ""
     );
   };

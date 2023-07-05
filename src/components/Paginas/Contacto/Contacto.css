@@ -10,6 +10,10 @@
     margin: 0 auto;
   }
 
+  .titleForm {
+    color: #15698c;
+  }
+
   .sectionDoubts {
     display: flex;
     flex-direction: column;
@@ -69,14 +73,14 @@
     right: 90px;
     width: 150px;
     height: 35px;
-    background-color: rgb(47, 47, 47);
+    background-color: #15698c;
     color: white;
     border-radius: 5px;
     cursor: pointer;
   }
 
   .btnForm:disabled {
-    background-color: grey;
+    background-color: #7799cc;
     opacity: 0.5;
     cursor: not-allowed;
   }

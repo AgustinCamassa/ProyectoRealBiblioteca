@@ -1,0 +1,23 @@
+.h1Espacios {
+    color: #15698c;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.divTextos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.pSubtitulo {
+    width: 23rem;
+    text-align: center;
+    padding-left: 5rem;
+    padding-bottom: 1.5rem;
+}
+
+.pContenedor {
+    margin-bottom: 2rem;
+}

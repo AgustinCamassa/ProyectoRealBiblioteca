@@ -9,7 +9,7 @@ export default function Footer() {
             <article className='parte1Footer row'>
 
                 <section className='s1P1 col-lg-3'>
-                    <img src="./im.png" alt="" />
+                    <img src="./logo.png" alt="" />
                 </section>
 
                 <section className='s2P1 col-lg-3'>

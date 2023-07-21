@@ -1,0 +1,26 @@
+.h1Actividades {
+    color: #15698c;
+    font-size: 2rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+
+.sub {
+    padding-bottom: 1rem;
+}
+
+.sectionActividades {
+    display: flex;
+    justify-content: space-between;
+    align-items: first baseline;
+    gap: 8rem;
+    margin-bottom: 3rem;
+}
+
+.articlesActividades {
+    width: 24rem;
+}
+
+.pSubtituloActividades {
+    padding-bottom: 1rem;
+}

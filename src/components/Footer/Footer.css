@@ -5,13 +5,13 @@
 .parte1Footer {
     display: flex;
     justify-content: center;
-    align-items: first baseline;
+    align-items: flex-start;
 }
 
 .s1P1 {
     display: grid;
     justify-content: center;
-    align-items: first baseline;
+    align-items: center;
 }
 
 .s2P1 {
@@ -37,6 +37,11 @@
     align-items: first baseline;
 }
 
+.linkRedes {
+    text-decoration: none;
+    color: black;
+}
+
 .s5P1 {
     display: grid;
     justify-content: center;
@@ -57,24 +62,8 @@
 }
 
 .s1P2 {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.s2P2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-bottom: 1rem;
-}
-
-.botonPriv {
-    background-color: white;
-    border: 0;
-}
-
-.linkPriv {
-    text-decoration: none;
-    color: black;
+    gap: 4rem;
 }

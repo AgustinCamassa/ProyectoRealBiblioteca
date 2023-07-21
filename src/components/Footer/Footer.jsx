@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Footer.css"
-import { Link, NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
 
@@ -25,9 +25,8 @@ export default function Footer() {
                 </section>
 
                 <section className='s4P1 col-lg-2'>
-                    <div><Link rel="stylesheet" href="" />Facebook</div>
-                    <div><Link rel="stylesheet" href="" />Twitter</div>
-                    <div><Link rel="stylesheet" href="" />Instagram</div>
+                    <div><a className='linkRedes' href="https://www.facebook.com/biblioteca.bandera/?locale=es_LA" target='_blank'>Facebook</a></div>
+                    <div><a className='linkRedes' href="https://www.instagram.com/bibliotecabelgrano/?hl=es" target='_blank'>Instagram</a></div>
                 </section>
 
                 <section className='s5P1 col-lg-2'>
@@ -38,17 +37,11 @@ export default function Footer() {
 
             <article className='parte2Footer row'>
 
-                <section className='s1P2 col-lg-8'>
+                <section className='s1P2'>
+                    <p>Contacto:</p>
                     <p>12345678910</p>
                     <p>libreria@gmial.com</p>
                 </section>
-
-                <section className='s2P2 col-lg-4'>
-                    <button className='botonPriv'><Link className='linkPriv' to={"/"}>Terminos</Link></button>
-                    <button className='botonPriv'><Link className='linkPriv' to={"/"}>Privacidad</Link></button>
-                    <button className='botonPriv'><Link className='linkPriv' to={"/"}>Cookies</Link></button>
-                </section>
-
             </article>
 
         </footer>

@@ -3,17 +3,15 @@ import './BibliotecaActiva.css'
 import { Link } from 'react-router-dom';
 
 import Carousel from 'react-bootstrap/Carousel';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 
 const BibliotecaActiva = () => {
 
   return (
 
     <div className='divContenedor container'>
-      <article className='primerBloque row'>
+      <article className='Bloque row'>
         <section className='textoB1 col-lg-6'>
-          <h2>11.000 libros disponibles</h2>
+          <h1 className='h1Home'>11.000 libros disponibles</h1>
           <span>En Biblioteca Pupular Belgrano, contamos con 11.000 volúmenes para todas las edades, gustos y necesidades, incluyendo una biblioteca especial para niños.</span>
         </section>
 
@@ -25,10 +23,6 @@ const BibliotecaActiva = () => {
                 src="./libros.png"
                 alt="First slide"
               />
-              <Carousel.Caption>
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -36,10 +30,6 @@ const BibliotecaActiva = () => {
                 src="./libros.png"
                 alt="Second slide"
               />
-              <Carousel.Caption>
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -47,60 +37,47 @@ const BibliotecaActiva = () => {
                 src="./libros.png"
                 alt="Third slide"
               />
-              <Carousel.Caption>
-                <h5>Third slide label</h5>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-                </p>
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </section>
       </article>
 
-      <section className='segudoBloque container'>
-        <div className='row'>
+      <section className='contenedorTarjetas'>
 
-        <Card className='col-md-4' style={{ width: '' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Actividades</Card.Title>
-            <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
-            </Card.Text>
-            <Link to='/paginas/actividades'>
-              <Button variant="primary">Actividades</Button>
+        <div className='tarjeta'>
+          <img src="" alt="" />
+          <h2>Actividades</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus magni, quo labore, dolor praesentium, vel sed laboriosam maiores quis nihil modi exercitationem qui? Ea maxime voluptatum recusandae deserunt nisi animi.</p>
+          <div className='btnDiv'>
+            <Link to='/Actividades'>
+              <button>/O/</button>
             </Link>
-          </Card.Body>
-        </Card>
+          </div>
+        </div>
 
-        <Card className='col-md-4' style={{ width: '' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Servicios</Card.Title>
-            <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
-            </Card.Text>
+        <div className='tarjeta'>
+          <img src="" alt="" />
+          <h2>Actividades</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus magni, quo labore, dolor praesentium, vel sed laboriosam maiores quis nihil modi exercitationem qui? Ea maxime voluptatum recusandae deserunt nisi animi.</p>
+          <div className='btnDiv'>
             <Link to='/Servicios'>
-              <Button variant="primary">Servicios</Button>
+              <button>/O/</button>
             </Link>
-          </Card.Body>
-        </Card>
+          </div>
+        </div>
 
-        <Card className='col-md-4' style={{ width: '' }}>
-          <Card.Img variant="top" src="holder.js/100px180" />
-          <Card.Body>
-            <Card.Title>Espacios  </Card.Title>
-            <Card.Text>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati praesentium nihil dolore quo, illum in quibusdam. Voluptates error sunt corporis natus nobis illum quibusdam inventore, aliquid, rerum iusto dicta eligendi.
-            </Card.Text>
+        <div className='tarjeta'>
+          <img src="" alt="" />
+          <h2>Actividades</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus magni, quo labore, dolor praesentium, vel sed laboriosam maiores quis nihil modi exercitationem qui? Ea maxime voluptatum recusandae deserunt nisi animi.</p>
+          <div className='btnDiv'>
             <Link to='/Espacios'>
-              <Button variant="primary">Espacios</Button>
+              <button>/O/</button>
             </Link>
-          </Card.Body>
-        </Card>
+          </div>
 
         </div>
+
       </section>
     </div>
   )

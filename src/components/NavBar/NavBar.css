@@ -1,12 +1,9 @@
-header {
-    background-color: burlywood;
+.divNav {
+    margin-top: 2rem;
 }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0rem 5rem;
+.ContenedorNav {
+    background-color: white;
 }
 
 img {
@@ -31,6 +28,14 @@ a {
 
 .linkBar {
     text-decoration: none;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.active {
+    border-bottom-color: rgb(155, 153, 241);
+    border-bottom-width: 3px;
+    border-bottom-style: solid;
 }
 
 .NavUl {

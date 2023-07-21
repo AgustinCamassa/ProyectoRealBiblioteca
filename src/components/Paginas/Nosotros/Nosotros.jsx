@@ -7,22 +7,22 @@ const Nosotros = () => {
 
     <div className='divContenedorN'>
       <article className='primerBloqueN'>
-        <h2 className='titN'>Conocé la Biblioteca Popular Belgrano</h2>
+        <h2 className='titN h2Tit'>Conocé la Biblioteca Popular Belgrano</h2>
         <section className='spanContenedorN container'>
           <div className='col-6'>
             <span className='spanN'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestias placeat perspiciatis, nesciunt nobis minus sint quidem
+            Somos una asociación civil, una ONG cultural, sin fines de lucro. La biblioteca es propiedad y responsabilidad de sus socios.
             </span>
             <span className='spanN'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestias placeat perspiciatis, nesciunt nobis minus sint quidem
+            Podes acercarte a conocernos, leer, aprender y sumergirte en un espacio educativo con actividades para todas las edades.
             </span>
           </div>
           <div className='col-6'>
             <span className='spanN'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestias placeat perspiciatis, nesciunt nobis minus sint quidem
+            Popular, por nacer de la unión de voluntades de las personas que deciden asociarse para buscar su bien común.
             </span>
             <span className='spanN'>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta molestias placeat perspiciatis, nesciunt nobis minus sint quidem
+              Los socios deciden hacer públicos algunos de sus espacios, talleres y materiales para el bien de la comunidad toda.
             </span>
           </div>
         </section>
@@ -69,18 +69,18 @@ const Nosotros = () => {
       </article>
 
       <article className='artMedio'>
-        <h2>Estamos trabajando para vos</h2>
+        <h2 className='titN2 h2Tit'>Estamos trabajando para vos</h2>
         <div className='boxInfoN container'>
           <section className='textoN col-6'>
-              <span>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates dolore natus vel esse.
-              </span>
-              <span>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, eos obcaecati accusantium iste nam provident.
-              </span>
-              <button>
-                <a href="">Realizar Donacion</a>
-              </button>
+            <span>
+              Nos encontramos en transformación, estamos construyendo una nueva sede para mejorar aún más nuestros servicios. Es por eso que necesitamos tu ayuda.
+            </span>
+            <span>
+              Si queres formar parte de un gran cambio y apoyar a nuestros voluntarios desde la comodidad de tu hogar, disponemos de canales electrónicos para que puedas realizar tu aporte solidario.
+            </span>
+            <button className='btnDonar'>
+              <a href="">Realizar Donacion</a>
+            </button>
           </section>
           <img className='imN col-6' src="im.png" alt="" />
         </div>

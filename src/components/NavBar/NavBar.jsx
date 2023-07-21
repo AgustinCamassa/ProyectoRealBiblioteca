@@ -9,17 +9,17 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function NavBar() {
 
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
+        <Navbar expand="lg" className="bg-body divNav">
             <Container className='ContenedorNav'>
-                <Link className={"linkBar"} to={"/"}><Navbar.Brand> <img src="./im.png" alt="" /></Navbar.Brand></Link>
+                <Link className={"linkBar"} to={"/"}><img src="./im.png" alt="" /></Link>
                 <div>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="me-auto NavUl">
-                            <NavLink className={"linkBar"} to={"/"}><Navbar.Brand>Biblioteca Activa</Navbar.Brand></NavLink>
-                            <NavLink className={"linkBar"} to={"/paginas/nosotros"}><Navbar.Brand>Nosotros</Navbar.Brand></NavLink>
-                            <NavLink className={"linkBar"} to={"/paginas/contacto"}><Navbar.Brand>Contacto</Navbar.Brand></NavLink>
-                            <NavLink className={"linkBar"} to={"/paginas/asociate"}><Navbar.Brand>¡Asociate!</Navbar.Brand></NavLink>
+                            <NavLink activeClassName="active" className={"linkBar"} to={"/"}>Biblioteca Activa</NavLink>
+                            <NavLink activeClassName="active" className={"linkBar"} to={"/paginas/nosotros"}>Nosotros</NavLink>
+                            <NavLink activeClassName="active" className={"linkBar"} to={"/paginas/contacto"}>Contacto</NavLink>
+                            <NavLink activeClassName="active" className={"linkBar"} to={"/paginas/asociate"}>¡Asociate!</NavLink>
                         </Nav>
                     </Navbar.Collapse>
                 </div>

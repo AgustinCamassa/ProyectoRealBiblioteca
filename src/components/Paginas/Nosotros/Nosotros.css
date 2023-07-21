@@ -1,3 +1,18 @@
+.h2Tit {
+    color: rgb(155, 153, 241);
+    font-size: 2rem;
+}
+
+.titN {
+    margin: 1rem;
+    margin-top: 3rem;
+    padding-left: -1rem;
+}
+
+.titN2 {
+    margin: 3rem 0rem 1rem -1.5rem;
+}
+
 .divContenedorN {
     display: grid;
     justify-content: center;
@@ -10,14 +25,10 @@
     align-items: center;
 }
 
-.titN {
-    margin: 1rem;
-}
-
 .spanContenedorN {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: first baseline;
     gap: 2rem;
 }
 
@@ -34,7 +45,7 @@
 
 .boxInfoN {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     gap: 4rem;
 }
@@ -51,4 +62,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.btnDonar {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(155, 153, 241);
+    padding: 0.5rem 0rem;
+    margin: 0rem 8em;
 }

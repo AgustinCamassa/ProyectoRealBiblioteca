@@ -77,7 +77,7 @@ const Contacto = () => {
   };
 
   return (
-    <main className="main">
+    <main className="main container">
       <div className="divMain">
         <section className="sectionDoubts">
           <h2 className="titleForm">Formulario de Consultas</h2>

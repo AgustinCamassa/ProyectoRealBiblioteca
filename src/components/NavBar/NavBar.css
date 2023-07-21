@@ -1,9 +1,11 @@
 .divNav {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
+    box-shadow: 0px 3px gainsboro;
 }
 
 .ContenedorNav {
     background-color: white;
+    margin-bottom: 0.7rem;
 }
 
 img {
@@ -33,7 +35,7 @@ a {
 }
 
 .active {
-    border-bottom-color: rgb(155, 153, 241);
+    border-bottom-color: #15698c;
     border-bottom-width: 3px;
     border-bottom-style: solid;
 }

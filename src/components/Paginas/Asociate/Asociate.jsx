@@ -3,7 +3,7 @@ import "./Asociate.css";
 const Asociate = () => {
   return (
     <>
-      <main className="mainAsoc">
+      <main className="mainAsoc container">
         <div className="divIntro">
           <h1 className="titlePage">¿Queres ser socio de la Biblioteca?</h1>
           <p className="pPage">

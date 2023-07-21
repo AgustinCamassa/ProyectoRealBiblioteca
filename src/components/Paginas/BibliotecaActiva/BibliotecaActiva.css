@@ -18,7 +18,7 @@
 }
 
 .h1Home {
-    color: rgb(155, 153, 241);
+    color: #15698c;
     font-size: 2rem;
 }
 
@@ -35,15 +35,16 @@
 }
 
 .tarjeta {
-    border: solid rgb(155, 153, 241) 2px;
+    border: solid #15698c 2px;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-p {
+.p {
     padding: 0rem 1rem;
+    height: 10rem;
 }
 
 .btnDiv {

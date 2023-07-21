@@ -1,5 +1,5 @@
 .contenedorFooter {
-    margin: 5rem 0rem;
+    margin: 2rem 0rem;
 }
 
 .parte1Footer {
@@ -51,9 +51,9 @@
 .parte2Footer {
     display: flex;
     justify-content: center;
-    align-items: first baseline;
-    padding-top: 4rem;
-    margin-bottom: -4rem;
+    align-items: end;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
 }
 
 .s1P2 {
@@ -66,6 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 1rem;
 }
 
 .botonPriv {

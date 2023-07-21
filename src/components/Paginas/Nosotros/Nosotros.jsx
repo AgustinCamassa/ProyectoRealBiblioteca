@@ -68,7 +68,7 @@ const Nosotros = () => {
         </section>
       </article>
 
-      <article className='artMedio'>
+      <article className='artMedio container'>
         <h2 className='titN2 h2Tit'>Estamos trabajando para vos</h2>
         <div className='boxInfoN container'>
           <section className='textoN col-6'>

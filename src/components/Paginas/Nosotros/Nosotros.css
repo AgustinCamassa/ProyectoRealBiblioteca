@@ -1,5 +1,5 @@
 .h2Tit {
-    color: rgb(155, 153, 241);
+    color: #15698c;
     font-size: 2rem;
 }
 
@@ -69,7 +69,7 @@
     color: rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
-    background-color: rgb(155, 153, 241);
+    background-color: #15698c;
     padding: 0.5rem 0rem;
     margin: 0rem 8em;
 }

@@ -20,7 +20,7 @@ const BibliotecaActiva = () => {
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="./libros.png"
+                src="slide1.png"
                 alt="First slide"
               />
             </Carousel.Item>

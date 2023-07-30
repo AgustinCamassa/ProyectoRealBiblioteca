@@ -32,14 +32,14 @@ const Nosotros = () => {
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="./slide1.png"
+                src="./libros.png"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="./slide2.png"
+                src="slide2.png"
                 alt="Second slide"
               />
             </Carousel.Item>
@@ -54,7 +54,7 @@ const Nosotros = () => {
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="./slide4.png"
+                src="slide4.png"
                 alt="First slide"
               />
             </Carousel.Item>

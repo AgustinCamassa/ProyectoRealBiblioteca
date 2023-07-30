@@ -30,7 +30,9 @@ export default function Footer() {
                 </section>
 
                 <section className='s5P1 col-lg-2'>
-                    <button className='botonSubir'><Link to={"/"}>/0/</Link></button>
+                    <Link to='/'>
+                        <img className='imgFlecha' src="volver.svg" alt="" />
+                    </Link>
                 </section>
 
             </article>

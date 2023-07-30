@@ -42,6 +42,12 @@
     align-items: center;
 }
 
+.imgTarjetas {
+    margin: 2rem 0rem;
+    max-width: 10rem;
+    max-height: 10rem;
+}
+
 .p {
     padding: 0rem 1rem;
     height: 10rem;
@@ -53,4 +59,9 @@
     justify-content: flex-end;
     align-items: flex-end;
     margin: 0rem 2rem 1rem 0rem;
+}
+
+.imgFlecha {
+    max-width: 3.5rem;
+    max-height: 3.5rem;
 }

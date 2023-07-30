@@ -10,7 +10,7 @@
 }
 
 .titN2 {
-    margin: 3rem 0rem 1rem -1.5rem;
+    margin: 3rem 0rem 1rem 0rem;
 }
 
 .divContenedorN {
@@ -50,12 +50,22 @@
     gap: 4rem;
 }
 
-.textoN {
+.infoNosotros {
     display: grid;
-    justify-content: center;
-    align-items: center;
-    gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+}
 
+.infoBanco {
+    display: grid;
+    align-items: start;
+    justify-content: center;
+}
+
+.pBanco {
+display: grid;
+justify-content: start;
+align-items: center;
+margin: -1rem 0rem;
 }
 
 .imN {

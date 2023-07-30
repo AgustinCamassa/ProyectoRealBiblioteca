@@ -45,34 +45,34 @@ const BibliotecaActiva = () => {
       <section className='contenedorTarjetas'>
 
         <div className='tarjeta'>
-          <img src="" alt="" />
+          <img className='imgTarjetas' src="icono espacios.svg" alt="" />
           <h2>Espacios</h2>
           <p className='p'>Contamos espacios para que todas las personas que asistan se sientan cómodas, según lo que deseen hacer. Conocé nuestras salas de estudio, lectura, juegoteca y patio para jugar o distraerse.</p>
           <div className='btnDiv'>
             <Link to='/Paginas/Espacios'>
-              <button>/O/</button>
+              <img className='imgFlecha' src="arrow-circle-right.svg" alt="" />
             </Link>
           </div>
         </div>
 
         <div className='tarjeta'>
-          <img src="" alt="" />
+          <img className='imgTarjetas' src="./icono servicios.svg" alt="" />
           <h2>Servicios</h2>
           <p className='p'>Descubrí nuestros dos tipos de servicios, el de socios, para poder retirar libros, acceder a descuentos en talleres y mantenerse al tanto de novedades, y el de biblioteca pública, para acceder a libros en nuestras salas de lectura.</p>
           <div className='btnDiv'>
             <Link to='/Paginas/Servicios'>
-              <button>/O/</button>
+              <img className='imgFlecha' src="arrow-circle-right.svg" alt="" />
             </Link>
           </div>
         </div>
 
         <div className='tarjeta'>
-          <img src="" alt="" />
+          <img className='imgTarjetas' src="icono actividades.svg" alt="" />
           <h2>Actividades</h2>
           <p className='p'>Conocé acá nuestras actividades diarias exporádicas. Contamos con diversos talleres, clubes de lectura, encuentros culturales, seminarios, conferencias, animaciones de lectura, títeres, etc.</p>
           <div className='btnDiv'>
             <Link to='/Paginas/Actividades'>
-              <button>/O/</button>
+              <img className='imgFlecha' src="arrow-circle-right.svg" alt="" />
             </Link>
           </div>
 

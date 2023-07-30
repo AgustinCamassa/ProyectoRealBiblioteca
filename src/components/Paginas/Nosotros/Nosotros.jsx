@@ -32,12 +32,9 @@ const Nosotros = () => {
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="slide1.png"
+                src="./slide1.png"
                 alt="First slide"
               />
-              <Carousel.Caption>
-
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
@@ -45,30 +42,21 @@ const Nosotros = () => {
                 src="./slide2.png"
                 alt="Second slide"
               />
-              <Carousel.Caption>
-
-              </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="slide3.png"
+                src="./slide3.png"
                 alt="Third slide"
               />
-              <Carousel.Caption>
-
-              </Carousel.Caption>
             </Carousel.Item>
 
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
                 src="./slide4.png"
-                alt="Second slide"
+                alt="First slide"
               />
-              <Carousel.Caption>
-
-              </Carousel.Caption>
             </Carousel.Item>
           </Carousel>
         </section>

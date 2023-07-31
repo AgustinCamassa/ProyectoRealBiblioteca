@@ -13,7 +13,7 @@
   .titleForm {
     color: #15698c;
     font-size: 3.5rem;
-    font-family: 'Museo Sans 700';
+    font-family: "Museo Sans 700";
     font-weight: bold;
   }
 
@@ -21,6 +21,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
+    margin-top: 40px;
   }
 
   .pForm {

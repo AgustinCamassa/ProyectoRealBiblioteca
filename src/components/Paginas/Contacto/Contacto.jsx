@@ -1,10 +1,10 @@
 import { useRef, useState } from "react";
 import { InfoForm } from "./InfoForm/InfoForm";
 import "./Contacto.css";
-//import emailjs from "@emailjs/browser";
+import emailjs from "@emailjs/browser";
 import FrequentQuestions from "./FrequentQuestions/FrequentQuestions";
 
-import ninos from '../../../../public/imagenes/ninos.jpg'
+import ninos from "../../../../public/imagenes/ninos.jpg";
 
 const Contacto = () => {
   const initialEmail = {
@@ -110,11 +110,7 @@ const Contacto = () => {
               </div>
             </form>
             <div className="divImg">
-              <img
-                src={ninos}
-                alt="dummyImage"
-                className="imgForm"
-              />
+              <img src={ninos} alt="dummyImage" className="imgForm" />
             </div>
           </div>
         </section>

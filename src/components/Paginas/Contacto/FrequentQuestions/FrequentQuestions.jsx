@@ -12,7 +12,7 @@ function FrequentQuestions() {
             la ciudad de Bandera en Santiago del Estero ARG
           </p>
           <p>
-            Para llegar a la biblioteca, poés tomar uno de los siguientes
+            Para llegar a la biblioteca, podés tomar uno de los siguientes
             colectivos:
           </p>
         </details>

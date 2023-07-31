@@ -4,6 +4,8 @@ import "./Contacto.css";
 //import emailjs from "@emailjs/browser";
 import FrequentQuestions from "./FrequentQuestions/FrequentQuestions";
 
+import ninos from '../../../../public/imagenes/ninos.jpg'
+
 const Contacto = () => {
   const initialEmail = {
     name: "",
@@ -109,7 +111,7 @@ const Contacto = () => {
             </form>
             <div className="divImg">
               <img
-                src="../../../../public/imagenes/ninos.jpg"
+                src={ninos}
                 alt="dummyImage"
                 className="imgForm"
               />

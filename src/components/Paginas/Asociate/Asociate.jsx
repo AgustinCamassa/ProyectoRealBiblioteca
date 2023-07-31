@@ -1,5 +1,7 @@
 import "./Asociate.css";
 
+import ninos from '../../../../public/imagenes/ninos.jpg'
+
 const Asociate = () => {
   return (
     <>
@@ -17,7 +19,7 @@ const Asociate = () => {
 
         <div className="divDetails">
           <div className="divImg">
-            <img src="../../../../public/imagenes/ninos.jpg" alt="" />
+            <img src={ninos} alt="" />
           </div>
           <div className="detailsCont">
             <details className="">

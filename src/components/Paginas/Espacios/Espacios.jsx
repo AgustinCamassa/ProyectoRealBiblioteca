@@ -3,6 +3,11 @@ import './Espacios.css';
 
 import Carousel from 'react-bootstrap/Carousel';
 
+import slide1 from '../../../../public/imagenes/slide1.png'
+import slide2 from '../../../../public/imagenes/slide2.png'
+import slide3 from '../../../../public/imagenes/slide3.png'
+import slide4 from '../../../../public/imagenes/slide4.png'
+
 const Espacios = () => {
   return (
     <div className='container DivGeneralEspacios'>
@@ -17,39 +22,39 @@ const Espacios = () => {
         </div>
       </div>
       <div>
-      <Carousel data-bs-theme="dark">
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100 img-fluid"
-                src="../../../../public/imagenes/slide1.png"
-                alt="First slide"
-              />
-            </Carousel.Item>
-           
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100 img-fluid"
-                src="../../../../public/imagenes/slide2.png"
-                alt="First slide"
-              />
-            </Carousel.Item>
+        <Carousel data-bs-theme="dark">
+          <Carousel.Item>
+            <img
+              className="d-block imCar w-100 img-fluid"
+              src={slide1}
+              alt="First slide"
+            />
+          </Carousel.Item>
 
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100 img-fluid"
-                src="../../../../public/imagenes/slide3.png"
-                alt="First slide"
-              />
-            </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block imCar w-100 img-fluid"
+              src={slide2}
+              alt="First slide"
+            />
+          </Carousel.Item>
 
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100 img-fluid"
-                src="../../../../public/imagenes/slide4.png"
-                alt="First slide"
-              />
-            </Carousel.Item>
-          </Carousel>
+          <Carousel.Item>
+            <img
+              className="d-block imCar w-100 img-fluid"
+              src={slide3}
+              alt="First slide"
+            />
+          </Carousel.Item>
+
+          <Carousel.Item>
+            <img
+              className="d-block imCar w-100 img-fluid"
+              src={slide4}
+              alt="First slide"
+            />
+          </Carousel.Item>
+        </Carousel>
       </div>
     </div>
   )

@@ -3,6 +3,11 @@ import './Servicios.css';
 
 import Carousel from 'react-bootstrap/Carousel';
 
+import slide1 from '../../../../public/imagenes/slide1.png'
+import slide2 from '../../../../public/imagenes/slide2.png'
+import slide3 from '../../../../public/imagenes/slide3.png'
+import slide4 from '../../../../public/imagenes/slide4.png'
+
 const Servicios = () => {
   return (
     <div className='container'>
@@ -33,7 +38,7 @@ const Servicios = () => {
           <Carousel.Item>
             <img
               className="d-block imCar w-100 img-fluid"
-              src="../../../../public/imagenes/slide1.png"
+              src={slide1}
               alt="First slide"
             />
           </Carousel.Item>
@@ -41,7 +46,7 @@ const Servicios = () => {
           <Carousel.Item>
             <img
               className="d-block imCar w-100 img-fluid"
-              src="../../../../public/imagenes/slide2.png"
+              src={slide2}
               alt="First slide"
             />
           </Carousel.Item>
@@ -49,7 +54,7 @@ const Servicios = () => {
           <Carousel.Item>
             <img
               className="d-block imCar w-100 img-fluid"
-              src="../../../../public/imagenes/slide3.png"
+              src={slide3}
               alt="First slide"
             />
           </Carousel.Item>
@@ -57,7 +62,7 @@ const Servicios = () => {
           <Carousel.Item>
             <img
               className="d-block imCar w-100 img-fluid"
-              src="../../../../public/imagenes/slide4.png"
+              src={slide4}
               alt="First slide"
             />
           </Carousel.Item>

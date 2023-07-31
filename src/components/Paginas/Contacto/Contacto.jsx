@@ -109,7 +109,7 @@ const Contacto = () => {
             </form>
             <div className="divImg">
               <img
-                src="https://dummyimage.com/300x400/000/fff"
+                src="../../../../public/imagenes/ninos.jpg"
                 alt="dummyImage"
                 className="imgForm"
               />

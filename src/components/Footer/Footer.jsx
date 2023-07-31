@@ -9,7 +9,7 @@ export default function Footer() {
             <article className='parte1Footer row'>
 
                 <section className='s1P1 col-lg-3'>
-                    <img src="./logo.png" alt="" />
+                    <img src="../../../../public/imagenes/logo.png" alt="" />
                 </section>
 
                 <section className='s2P1 col-lg-3'>
@@ -31,7 +31,7 @@ export default function Footer() {
 
                 <section className='s5P1 col-lg-2'>
                     <Link to='/'>
-                        <img className='imgFlecha' src="volver.svg" alt="" />
+                        <img className='imgFlecha' src="../../../../public/imagenes/volver.svg" alt="" />
                     </Link>
                 </section>
 

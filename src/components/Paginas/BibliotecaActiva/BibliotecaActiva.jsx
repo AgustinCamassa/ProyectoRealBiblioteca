@@ -4,6 +4,12 @@ import { Link } from 'react-router-dom';
 
 import Carousel from 'react-bootstrap/Carousel';
 
+import libros from '../../../../public/imagenes/libros.png'
+import espacios from '../../../../public/imagenes/icono espacios.svg'
+import servicios from '../../../../public/imagenes/icono servicios.svg'
+import actividades from '../../../../public/imagenes/icono actividades.svg'
+import right from '../../../../public/imagenes/arrow-circle-right.svg'
+
 const BibliotecaActiva = () => {
 
   return (
@@ -20,21 +26,21 @@ const BibliotecaActiva = () => {
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="slide1.png"
+                src={libros}
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="./libros.png"
+                src={libros}
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block imCar w-100"
-                src="./libros.png"
+                src={libros}
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -45,34 +51,34 @@ const BibliotecaActiva = () => {
       <section className='contenedorTarjetas'>
 
         <div className='tarjeta'>
-          <img className='imgTarjetas' src="icono espacios.svg" alt="" />
+          <img className='imgTarjetas' src={espacios} alt="" />
           <h2>Espacios</h2>
           <p className='p'>Contamos espacios para que todas las personas que asistan se sientan cómodas, según lo que deseen hacer. Conocé nuestras salas de estudio, lectura, juegoteca y patio para jugar o distraerse.</p>
           <div className='btnDiv'>
             <Link to='/Paginas/Espacios'>
-              <img className='imgFlecha' src="arrow-circle-right.svg" alt="" />
+              <img className='imgFlecha' src={right} alt="" />
             </Link>
           </div>
         </div>
 
         <div className='tarjeta'>
-          <img className='imgTarjetas' src="./icono servicios.svg" alt="" />
+          <img className='imgTarjetas' src={servicios} alt="" />
           <h2>Servicios</h2>
           <p className='p'>Descubrí nuestros dos tipos de servicios, el de socios, para poder retirar libros, acceder a descuentos en talleres y mantenerse al tanto de novedades, y el de biblioteca pública, para acceder a libros en nuestras salas de lectura.</p>
           <div className='btnDiv'>
             <Link to='/Paginas/Servicios'>
-              <img className='imgFlecha' src="arrow-circle-right.svg" alt="" />
+              <img className='imgFlecha' src={right} alt="" />
             </Link>
           </div>
         </div>
 
         <div className='tarjeta'>
-          <img className='imgTarjetas' src="icono actividades.svg" alt="" />
+          <img className='imgTarjetas' src={actividades} alt="" />
           <h2>Actividades</h2>
           <p className='p'>Conocé acá nuestras actividades diarias exporádicas. Contamos con diversos talleres, clubes de lectura, encuentros culturales, seminarios, conferencias, animaciones de lectura, títeres, etc.</p>
           <div className='btnDiv'>
             <Link to='/Paginas/Actividades'>
-              <img className='imgFlecha' src="arrow-circle-right.svg" alt="" />
+              <img className='imgFlecha' src={right} alt="" />
             </Link>
           </div>
 

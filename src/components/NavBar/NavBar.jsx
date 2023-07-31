@@ -11,7 +11,7 @@ export default function NavBar() {
     return (
         <Navbar expand="lg" className="bg-body divNav">
             <Container className='ContenedorNav'>
-                <Link className={"linkBar"} to={"/"}><img src="./logo.png" alt="" /></Link>
+                <Link className={"linkBar"} to={"/"}><img src="../../../../public/imagenes/logo.png" alt="" /></Link>
                 <div>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

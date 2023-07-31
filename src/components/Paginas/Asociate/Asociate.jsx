@@ -17,7 +17,7 @@ const Asociate = () => {
 
         <div className="divDetails">
           <div className="divImg">
-            <img src="https://dummyimage.com/300x400/000/fff" alt="" />
+            <img src="../../../../public/imagenes/ninos.jpg" alt="" />
           </div>
           <div className="detailsCont">
             <details className="">

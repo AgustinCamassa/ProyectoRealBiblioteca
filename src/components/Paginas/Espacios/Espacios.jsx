@@ -17,29 +17,39 @@ const Espacios = () => {
         </div>
       </div>
       <div>
-        <Carousel data-bs-theme="dark">
-          <Carousel.Item>
-            <img
-              className="d-block imCar w-100"
-              src="slide1.png"
-              alt="First slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block imCar w-100"
-              src="./libros.png"
-              alt="Second slide"
-            />
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block imCar w-100"
-              src="./libros.png"
-              alt="Third slide"
-            />
-          </Carousel.Item>
-        </Carousel>
+      <Carousel data-bs-theme="dark">
+            <Carousel.Item>
+              <img
+                className="d-block imCar w-100 img-fluid"
+                src="../../../../public/imagenes/slide1.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+           
+            <Carousel.Item>
+              <img
+                className="d-block imCar w-100 img-fluid"
+                src="../../../../public/imagenes/slide2.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block imCar w-100 img-fluid"
+                src="../../../../public/imagenes/slide3.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+
+            <Carousel.Item>
+              <img
+                className="d-block imCar w-100 img-fluid"
+                src="../../../../public/imagenes/slide4.png"
+                alt="First slide"
+              />
+            </Carousel.Item>
+          </Carousel>
       </div>
     </div>
   )

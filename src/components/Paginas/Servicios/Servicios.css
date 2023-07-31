@@ -1,8 +1,10 @@
 .h1Servicios {
     color: #15698c;
-    font-size: 2rem;
+    font-size: 3.5rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
+    font-family: 'Museo Sans 700';
+    font-weight: bold;
 }
 
 .sectionServicios {

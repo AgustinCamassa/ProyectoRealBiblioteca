@@ -58,3 +58,12 @@
     font-display: swap;
 }
 
+p {
+    font-family: 'Museo Sans 500';
+    font-size: 1.3rem;
+}
+
+span {
+    font-family: 'Museo Sans 500';
+    font-size: 1.3rem;  
+}

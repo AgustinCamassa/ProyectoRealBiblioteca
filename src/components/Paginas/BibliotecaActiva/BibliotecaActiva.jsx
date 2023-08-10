@@ -1,9 +1,5 @@
-import React from "react";
 import "./BibliotecaActiva.css";
-import { Link } from "react-router-dom";
-
 import Carousel from "react-bootstrap/Carousel";
-
 import libros from "../../../../public/imagenes/libros.png";
 import espacios from "../../../../public/imagenes/icono espacios.svg";
 import servicios from "../../../../public/imagenes/icono servicios.svg";

@@ -1,25 +1,42 @@
-.h1Espacios {
+@media screen and (min-width: 320px) {
+  .h1Espacios {
+    color: #15698c;
+    font-size: 3.5rem;
+    font-family: "Museo Sans 700";
+    font-weight: bold;
+  }
+
+  .divTextos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pContenedor {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .h1Espacios {
     color: #15698c;
     font-size: 3.5rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    font-family: 'Museo Sans 700';
+    font-family: "Museo Sans 700";
     font-weight: bold;
-}
+  }
 
-.divTextos {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-}
-
-.pSubtitulo {
+  .pSubtitulo {
     width: 23rem;
     text-align: center;
     padding-left: 5rem;
     padding-bottom: 1.5rem;
-}
+  }
 
-.pContenedor {
-    margin-bottom: 2rem;
+  .divTextos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
 }

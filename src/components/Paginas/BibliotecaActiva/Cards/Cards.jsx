@@ -7,7 +7,7 @@ const Cards = ({ srcImg, title, text, srcLink }) => {
       <h2>{title}</h2>
       <p className="p">{text}</p>
       <div className="btnDiv">
-        <Link to="/Paginas/Servicios">
+        <Link to={`/Paginas/${title}`}>
           <img
             className="imgFlecha"
             src={srcLink}

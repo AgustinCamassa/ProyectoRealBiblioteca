@@ -1,28 +1,37 @@
-.h1Actividades {
+@media screen and (min-width: 320px) {
+  .h1Actividades {
     color: #15698c;
     font-size: 3.5rem;
     margin-top: 3rem;
     margin-bottom: 2rem;
-    font-family: 'Museo Sans 700';
+    font-family: "Museo Sans 700";
     font-weight: bold;
-}
+  }
 
-.sub {
+  .sub {
     padding-bottom: 1rem;
+  }
+  .sectionActividades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .articlesActividades {
+    width: 24rem;
+  }
+
+  .pSubtituloActividades {
+    padding-bottom: 1rem;
+  }
 }
 
-.sectionActividades {
+@media screen and (min-width: 768px) {
+  .sectionActividades {
     display: flex;
     justify-content: space-evenly;
     align-items: first baseline;
     gap: 8rem;
     margin-bottom: 3rem;
-}
-
-.articlesActividades {
-    width: 24rem;
-}
-
-.pSubtituloActividades {
-    padding-bottom: 1rem;
+  }
 }

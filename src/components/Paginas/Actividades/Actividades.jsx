@@ -1,36 +1,41 @@
-import React from 'react'
-import './Actividades.css';
+import "./Actividades.css";
 
-import Carousel from 'react-bootstrap/Carousel';
+import Carousel from "react-bootstrap/Carousel";
 
-import slide1 from '../../../../public/imagenes/slide1.png'
-import slide2 from '../../../../public/imagenes/slide2.png'
-import slide3 from '../../../../public/imagenes/slide3.png'
-import slide4 from '../../../../public/imagenes/slide4.png'
+import slide1 from "../../../../public/imagenes/slide1.png";
+import slide2 from "../../../../public/imagenes/slide2.png";
+import slide3 from "../../../../public/imagenes/slide3.png";
+import slide4 from "../../../../public/imagenes/slide4.png";
 
 const Actividades = () => {
   return (
-    <div className='container'>
-      <h1 className='h1Actividades'>Actividades</h1>
-      <p className='sub'>Contamos con actividades de extensión cultural:</p>
-      <section className='sectionActividades'>
-        <article className='articlesActividades'>
-          <p className='pSubtituloActividades'>Esporádicos</p>
-          <div className='divContenedorItems'>
+    <div className="container">
+      <h1 className="h1Actividades">Actividades</h1>
+      <p className="sub">Contamos con actividades de extensión cultural:</p>
+      <section className="sectionActividades">
+        <article className="articlesActividades">
+          <p className="pSubtituloActividades">Esporádicos</p>
+          <div className="divContenedorItems">
             <p>- Encuentros culturales con adoltos mayores</p>
             <p>- Workshop de cerámica</p>
             <p>- Talleres de fotografía</p>
             <p>- Talleres de robótica y programación</p>
             <p>- Talleres de belleza</p>
             <p>- Seminarios de arte y cocina</p>
-            <p>- Conferencias, encuentros de lectura, teatro, animaciones de lectura, títeres</p>
-            <p>- Talleres tipo colonia durante las vacaciones para niños de distintas edades</p>
+            <p>
+              - Conferencias, encuentros de lectura, teatro, animaciones de
+              lectura, títeres
+            </p>
+            <p>
+              - Talleres tipo colonia durante las vacaciones para niños de
+              distintas edades
+            </p>
           </div>
         </article>
 
-        <article className='articlesActividades'>
-          <p className='pSubtituloActividades'>Diarios</p>
-          <div className='divContenedorItems'>
+        <article className="articlesActividades">
+          <p className="pSubtituloActividades">Diarios</p>
+          <div className="divContenedorItems">
             <p>- Taller de apoyo escolar nivel primario y secundario</p>
             <p>- Taller de arte, juego y lectura para niños</p>
             <p>Taller maternal de arte, juego y conversatorio</p>
@@ -76,7 +81,7 @@ const Actividades = () => {
         </Carousel>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Actividades
+export default Actividades;

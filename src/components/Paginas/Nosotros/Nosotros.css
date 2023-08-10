@@ -1,91 +1,132 @@
-.h2Tit {
-  color: #15698c;
-  font-size: 3.5rem;
-  font-family: "Museo Sans 700";
-  font-weight: bold;
+@media screen and (min-width: 320px) {
+  .h2Tit {
+    color: #15698c;
+    font-size: 2.5rem;
+    font-family: "Museo Sans 700";
+    font-weight: bold;
+  }
+
+  .titN {
+    margin: 2rem;
+    margin-top: 3rem;
+    padding-left: -1rem;
+  }
+
+  .titN2 {
+    margin: 3rem 0rem 1rem 0rem;
+  }
+
+  .divContenedorN {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .primerBloqueN {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .spanContenedorN {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    gap: 2rem;
+  }
+
+  .divSpan {
+    margin: 0 auto;
+    min-width: 300px;
+  }
+
+  .spanN {
+    display: block;
+    margin: 0;
+  }
+
+  .artMedio {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .boxInfoN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  .infoNosotros {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoBanco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pBanco {
+    display: grid;
+    justify-content: start;
+    align-items: center;
+    margin: -1rem 0rem;
+  }
+
+  .imN {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnDonar {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    background-color: #15698c;
+    padding: 0.5rem 0rem;
+    margin: 0rem 8em;
+  }
+
+  .imCar {
+    object-fit: cover;
+  }
 }
 
-.titN {
-  margin: 1rem;
-  margin-top: 3rem;
-  padding-left: -1rem;
-}
+@media screen and (min-width: 768px) {
+  .h2Tit {
+    font-size: 3.5rem;
+  }
 
-.titN2 {
-  margin: 3rem 0rem 1rem 0rem;
-}
+  .titN {
+    margin: 1rem;
+    margin-top: 3rem;
+    padding-left: -1rem;
+  }
 
-.divContenedorN {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
+  .spanContenedorN {
+    flex-direction: row;
+  }
 
-.primerBloqueN {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
+  .infoNosotros {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
-.spanContenedorN {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: first baseline;
-  gap: 2rem;
-}
+  .infoBanco {
+    display: grid;
+    align-items: start;
+    justify-content: center;
+  }
 
-.spanN {
-  display: block;
-  margin: 1rem 1rem;
-}
-
-.artMedio {
-  display: grid;
-  justify-content: center;
-  align-items: center;
-}
-
-.boxInfoN {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 4rem;
-}
-
-.infoNosotros {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.infoBanco {
-  display: grid;
-  align-items: start;
-  justify-content: center;
-}
-
-.pBanco {
-  display: grid;
-  justify-content: start;
-  align-items: center;
-  margin: -1rem 0rem;
-}
-
-.imN {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.btnDonar {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  border: none;
-  border-radius: 5px;
-  background-color: #15698c;
-  padding: 0.5rem 0rem;
-  margin: 0rem 8em;
-}
-
-.imCar {
-  object-fit: cover;
+  .spanN {
+    display: block;
+    margin: 1rem 1rem;
+  }
 }

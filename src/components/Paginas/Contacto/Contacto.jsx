@@ -2,8 +2,6 @@ import { useRef, useState } from "react";
 import { InfoForm } from "./InfoForm/InfoForm";
 import "./Contacto.css";
 import emailjs from "@emailjs/browser";
-import FrequentQuestions from "./FrequentQuestions/FrequentQuestions";
-
 import ninos from "../../../../public/imagenes/ninos.jpg";
 
 const Contacto = () => {
@@ -113,10 +111,6 @@ const Contacto = () => {
               <img src={ninos} alt="dummyImage" className="imgForm" />
             </div>
           </div>
-        </section>
-
-        <section>
-          <FrequentQuestions />
         </section>
       </div>
     </main>

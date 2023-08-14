@@ -59,10 +59,10 @@ const Contacto = () => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_evt7wt9",
-        "template_y8h355s",
+        "service_1my33wi",
+        "template_yz3obpr",
         form.current,
-        "X2KYYDaiskyQPgdWn"
+        "36tLWSRSJHdkTGB6M"
       )
       .then(
         (result) => {

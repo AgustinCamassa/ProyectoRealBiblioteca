@@ -18,7 +18,7 @@ const Asociate = () => {
         <div className="divDetails">
           <div className="divImg">
             <img
-              src="../../../../public/imagenes/asociate.jpeg"
+              src="../../../../src/imagenes/asociate.jpeg"
               alt="asociateimg"
               className="asociateImg"
             />

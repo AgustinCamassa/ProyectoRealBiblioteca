@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { InfoForm } from "./InfoForm/InfoForm";
 import "./Contacto.css";
 import emailjs from "@emailjs/browser";
-import ninos from "../../../../public/imagenes/ninos.jpg";
+import ninos from "../../../../src/imagenes/ninos.jpg";
 
 const Contacto = () => {
   const initialEmail = {

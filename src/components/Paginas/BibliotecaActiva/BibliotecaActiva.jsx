@@ -41,7 +41,7 @@ const BibliotecaActiva = () => {
 
         <section className="col-lg-6 imgSection">
           <img
-            src="../../../../public/imagenes/inicio.jpeg"
+            src="../../../../src/imagenes/inicio.jpeg"
             alt="inicioimg"
             className="inicioImg"
           />

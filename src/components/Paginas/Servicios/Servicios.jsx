@@ -1,9 +1,9 @@
 import "./Servicios.css";
 
 const SERVICES = [
-  "../../../../public/imagenes/servicios-1.jpeg",
-  "../../../../public/imagenes/servicios-2.jpeg",
-  "../../../../public/imagenes/servicios-3.jpeg",
+  "../../../../src/imagenes/servicios-1.jpeg",
+  "../../../../src/imagenes/servicios-2.jpeg",
+  "../../../../src/imagenes/servicios-3.jpeg",
 ];
 
 const Servicios = () => {

@@ -4,21 +4,21 @@ import Carousel from "react-bootstrap/Carousel";
 
 const Espacios = () => {
   const FIRST_SLIDE = [
-    "../../../../public/imagenes/ingreso.jpeg",
-    "../../../../public/imagenes/juegoteca-1.jpeg",
-    "../../../../public/imagenes/juegoteca-2.jpeg",
+    "../../../../src/imagenes/ingreso.jpeg",
+    "../../../../src/imagenes/juegoteca-1.jpeg",
+    "../../../../src/imagenes/juegoteca-2.jpeg",
   ];
 
   const SECOND_SLIDE = [
-    "../../../../public/imagenes/juegoteca-3.jpeg",
-    "../../../../public/imagenes/patio-1.jpeg",
-    "../../../../public/imagenes/patio-2.jpeg",
+    "../../../../src/imagenes/juegoteca-3.jpeg",
+    "../../../../src/imagenes/patio-1.jpeg",
+    "../../../../src/imagenes/patio-2.jpeg",
   ];
 
   const THIRD_SLIDE = [
-    "../../../../public/imagenes/patio-3.jpeg",
-    "../../../../public/imagenes/estudio-1.jpeg",
-    "../../../../public/imagenes/estudio-2.jpeg",
+    "../../../../src/imagenes/patio-3.jpeg",
+    "../../../../src/imagenes/estudio-1.jpeg",
+    "../../../../src/imagenes/estudio-2.jpeg",
   ];
 
   const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE, ...THIRD_SLIDE];

@@ -2,15 +2,15 @@ import "./Actividades.css";
 import Carousel from "react-bootstrap/Carousel";
 
 const FIRST_SLIDE = [
-  "../../../../public/imagenes/actividades-1.jpeg",
-  "../../../../public/imagenes/actividades-2.jpeg",
-  "../../../../public/imagenes/actividades-3.jpeg",
+  "../../../../src/imagenes/actividades-1.jpeg",
+  "../../../../src/imagenes/actividades-2.jpeg",
+  "../../../../src/imagenes/actividades-3.jpeg",
 ];
 
 const SECOND_SLIDE = [
-  "../../../../public/imagenes/actividades-4.jpeg",
-  "../../../../public/imagenes/actividades-5.jpeg",
-  "../../../../public/imagenes/actividades-6.jpeg",
+  "../../../../src/imagenes/actividades-4.jpeg",
+  "../../../../src/imagenes/actividades-5.jpeg",
+  "../../../../src/imagenes/actividades-6.jpeg",
 ];
 
 const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE];

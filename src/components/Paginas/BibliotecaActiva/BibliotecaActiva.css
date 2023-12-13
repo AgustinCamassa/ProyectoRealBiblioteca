@@ -69,6 +69,23 @@
     max-width: 3.5rem;
     max-height: 3.5rem;
   }
+
+  .articleInicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .imgSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inicioImg {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -77,5 +94,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     margin: 2rem 0rem;
+  }
+
+  .inicioImg {
+    width: 400px;
   }
 }

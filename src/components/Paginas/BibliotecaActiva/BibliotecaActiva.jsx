@@ -1,6 +1,4 @@
 import "./BibliotecaActiva.css";
-import Carousel from "react-bootstrap/Carousel";
-import libros from "../../../../public/imagenes/libros.png";
 import espacios from "../../../../public/imagenes/icono espacios.svg";
 import servicios from "../../../../public/imagenes/icono servicios.svg";
 import actividades from "../../../../public/imagenes/icono actividades.svg";
@@ -31,7 +29,7 @@ const BibliotecaActiva = () => {
 
   return (
     <div className="divContenedor container">
-      <article className="Bloque row">
+      <article className="Bloque row articleInicio">
         <section className="textoB1 col-lg-6">
           <h1 className="h1Home">Más de 11.000 libros disponibles</h1>
           <span>
@@ -41,30 +39,12 @@ const BibliotecaActiva = () => {
           </span>
         </section>
 
-        <section className="col-lg-6">
-          <Carousel data-bs-theme="dark">
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100"
-                src={libros}
-                alt="First slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100"
-                src={libros}
-                alt="Second slide"
-              />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block imCar w-100"
-                src={libros}
-                alt="Third slide"
-              />
-            </Carousel.Item>
-          </Carousel>
+        <section className="col-lg-6 imgSection">
+          <img
+            src="../../../../public/imagenes/inicio.jpeg"
+            alt="inicioimg"
+            className="inicioImg"
+          />
         </section>
       </article>
 

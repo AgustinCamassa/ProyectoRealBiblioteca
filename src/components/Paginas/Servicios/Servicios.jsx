@@ -1,7 +1,10 @@
 import "./Servicios.css";
+import servicios1 from "../../../../src/imagenes/servicios-1.jpeg";
+
+// "../../../../src/imagenes/servicios-1.jpeg"
 
 const SERVICES = [
-  "../../../../src/imagenes/servicios-1.jpeg",
+  servicios1,
   "../../../../src/imagenes/servicios-2.jpeg",
   "../../../../src/imagenes/servicios-3.jpeg",
 ];

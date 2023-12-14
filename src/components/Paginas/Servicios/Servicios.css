@@ -20,6 +20,7 @@
 
   .pSubtituloServicios {
     padding-bottom: 1rem;
+    font-size: 30px;
   }
 
   .sectionImagesServices {
@@ -28,6 +29,23 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+  }
+
+  .servicioSubtitle {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
+
+  .divSubtitle {
+    display: flex;
+    justify-content: center;
+  }
+
+  .divContenedorItems > p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: start;
   }
 }
 

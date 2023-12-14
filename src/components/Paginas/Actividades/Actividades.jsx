@@ -17,12 +17,19 @@ const Actividades = () => {
   return (
     <div className="container">
       <h1 className="h1Actividades">Actividades</h1>
-      <p className="sub">Contamos con actividades de extensión cultural:</p>
+      <div className="divSubtitle">
+        <p className="sub actividadesSubtitle">
+          Participá de nuestras actividades diarias o esporádicas
+        </p>
+      </div>
       <section className="sectionActividades">
         <article className="articlesActividades">
-          <p className="pSubtituloActividades">Esporádicos</p>
+          <p className="pSubtituloActividades">
+            {" "}
+            <strong>Esporádicos</strong>
+          </p>
           <div className="divContenedorItems">
-            <p>- Encuentros culturales con adoltos mayores</p>
+            <p>- Encuentros culturales con adultos mayores</p>
             <p>- Workshop de cerámica</p>
             <p>- Talleres de fotografía</p>
             <p>- Talleres de robótica y programación</p>
@@ -40,7 +47,10 @@ const Actividades = () => {
         </article>
 
         <article className="articlesActividades">
-          <p className="pSubtituloActividades">Diarios</p>
+          <p className="pSubtituloActividades">
+            {" "}
+            <strong>Diarios</strong>
+          </p>
           <div className="divContenedorItems">
             <p>- Taller de apoyo escolar nivel primario y secundario</p>
             <p>- Taller de arte, juego y lectura para niños</p>

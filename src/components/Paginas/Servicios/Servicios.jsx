@@ -9,10 +9,16 @@ const Servicios = () => {
   return (
     <div className="container">
       <h1 className="h1Servicios">Servicios</h1>
+      <div className="divSubtitle">
+        <p className="servicioSubtitle">Descubrí nuestros servicios</p>
+      </div>
       <section className="sectionServicios">
         <article className="articlesServicios">
-          <p className="pSubtituloServicios">Servicio de Biblioteca a Socios</p>
-          <div className="divContenedorItemsS">
+          <p className="pSubtituloServicios">
+            {" "}
+            <strong>Servicio de Biblioteca a Socios</strong>
+          </p>
+          <div className="divContenedorItems">
             <p>
               Retirar libros en préstamo a domicilio por el plazo de un mes,
               renovable si no hay otros socios esperando el mismo material.
@@ -35,8 +41,11 @@ const Servicios = () => {
         </article>
 
         <article className="articlesServicios">
-          <p className="pSubtituloServicios">Servicio de Biblioteca Pública</p>
-          <div className="divContenedorItemsS">
+          <p className="pSubtituloServicios">
+            {" "}
+            <strong>Servicio de Biblioteca Pública sin retiros</strong>
+          </p>
+          <div className="divContenedorItems">
             <p>
               - Prestamos el servicio de biblioteca pública en forma gratuita,
               por lo cuál no es necesario asociarse y en cualquier momento puede

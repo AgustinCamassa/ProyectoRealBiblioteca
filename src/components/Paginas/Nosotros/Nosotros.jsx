@@ -11,9 +11,7 @@ import servicios1 from "../../../../src/imagenes/servicios1.jpeg";
 import servicios3 from "../../../../src/imagenes/servicios3.jpeg";
 
 const FIRST_SLIDE = [servicios1, juegoteca1, servicios3];
-
 const SECOND_SLIDE = [juegoteca3, patio1, patio2];
-
 const THIRD_SLIDE = [patio3, estudio1, estudio2];
 
 const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE, ...THIRD_SLIDE];
@@ -22,7 +20,9 @@ const Nosotros = () => {
   return (
     <div className="divContenedorN">
       <article className="primerBloqueN">
-        <h2 className="titN h2Tit">Conocé la Biblioteca Popular Belgrano</h2>
+        <h1 className="titN h2Tit">
+          Conocé la Biblioteca Popular Belgrano N°2252
+        </h1>
         <section className="spanContenedorN container">
           <div className="col-6 divSpan">
             <span className="spanN">

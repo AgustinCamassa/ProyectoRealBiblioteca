@@ -74,8 +74,7 @@ export default function Footer() {
       <article className="parte2Footer row">
         <section className="s1P2">
           <p>Contacto:</p>
-          <p>12345678910</p>
-          <p>libreria@gmial.com</p>
+          <p>bpbelgranobandera@gmail.com</p>
         </section>
       </article>
     </footer>

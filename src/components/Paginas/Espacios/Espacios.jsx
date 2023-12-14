@@ -23,10 +23,7 @@ const Espacios = () => {
     <div className="container DivGeneralEspacios">
       <h1 className="h1Espacios">Espacios</h1>
       <div className="divTextos">
-        <p className="pSubtitulo">
-          Actualmente nuestras actividades para el desarrollo comunitario se
-          realizan en:
-        </p>
+        <p className="pSubtitulo espacioSubtitle">Conoce nuestra biblioteca</p>
         <div className="divContenedorItems">
           <p>
             <strong> Sala de estudio</strong> con conexión a internet y

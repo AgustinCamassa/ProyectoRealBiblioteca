@@ -1,8 +1,7 @@
 import "./Footer.css";
 import { Link } from "react-router-dom";
-
-import logo from "../../../public/imagenes/logo.png";
-import volver from "../../../public/imagenes/volver.svg";
+import logo from "../../../src/imagenes/logo.png";
+import volver from "../../../src/imagenes/volver.svg";
 
 export default function Footer() {
   return (

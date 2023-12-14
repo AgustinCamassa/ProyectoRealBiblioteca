@@ -1,8 +1,8 @@
 import "./BibliotecaActiva.css";
-import espacios from "../../../../public/imagenes/icono espacios.svg";
-import servicios from "../../../../public/imagenes/icono servicios.svg";
-import actividades from "../../../../public/imagenes/icono actividades.svg";
-import right from "../../../../public/imagenes/arrow-circle-right.svg";
+import espacios from "../../../../src/imagenes/icono espacios.svg";
+import servicios from "../../../../src/imagenes/icono servicios.svg";
+import actividades from "../../../../src/imagenes/icono actividades.svg";
+import right from "../../../../src/imagenes/arrow-circle-right.svg";
 import Cards from "./Cards/Cards";
 import inicio from "../../../../src/imagenes/inicio.jpeg";
 

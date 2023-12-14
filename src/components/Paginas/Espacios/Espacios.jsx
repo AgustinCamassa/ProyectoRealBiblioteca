@@ -1,25 +1,21 @@
 import "./Espacios.css";
-
 import Carousel from "react-bootstrap/Carousel";
+import ingreso from "../../../../src/imagenes/ingreso.jpeg";
+import juegoteca1 from "../../../../src/imagenes/juegoteca1.jpeg";
+import juegoteca2 from "../../../../src/imagenes/juegoteca2.jpeg";
+import juegoteca3 from "../../../../src/imagenes/juegoteca3.jpeg";
+import patio1 from "../../../../src/imagenes/patio1.jpeg";
+import patio2 from "../../../../src/imagenes/patio2.jpeg";
+import patio3 from "../../../../src/imagenes/patio3.jpeg";
+import estudio1 from "../../../../src/imagenes/estudio1.jpeg";
+import estudio2 from "../../../../src/imagenes/estudio2.jpeg";
 
 const Espacios = () => {
-  const FIRST_SLIDE = [
-    "../../../../src/imagenes/ingreso.jpeg",
-    "../../../../src/imagenes/juegoteca-1.jpeg",
-    "../../../../src/imagenes/juegoteca-2.jpeg",
-  ];
+  const FIRST_SLIDE = [ingreso, juegoteca1, juegoteca2];
 
-  const SECOND_SLIDE = [
-    "../../../../src/imagenes/juegoteca-3.jpeg",
-    "../../../../src/imagenes/patio-1.jpeg",
-    "../../../../src/imagenes/patio-2.jpeg",
-  ];
+  const SECOND_SLIDE = [juegoteca3, patio1, patio2];
 
-  const THIRD_SLIDE = [
-    "../../../../src/imagenes/patio-3.jpeg",
-    "../../../../src/imagenes/estudio-1.jpeg",
-    "../../../../src/imagenes/estudio-2.jpeg",
-  ];
+  const THIRD_SLIDE = [patio3, estudio1, estudio2];
 
   const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE, ...THIRD_SLIDE];
 

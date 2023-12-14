@@ -4,6 +4,7 @@ import servicios from "../../../../public/imagenes/icono servicios.svg";
 import actividades from "../../../../public/imagenes/icono actividades.svg";
 import right from "../../../../public/imagenes/arrow-circle-right.svg";
 import Cards from "./Cards/Cards";
+import inicio from "../../../../src/imagenes/inicio.jpeg";
 
 const BibliotecaActiva = () => {
   const CARDS_INFO = [
@@ -40,11 +41,7 @@ const BibliotecaActiva = () => {
         </section>
 
         <section className="col-lg-6 imgSection">
-          <img
-            src="../../../../src/imagenes/inicio.jpeg"
-            alt="inicioimg"
-            className="inicioImg"
-          />
+          <img src={inicio} alt="inicioimg" className="inicioImg" />
         </section>
       </article>
 

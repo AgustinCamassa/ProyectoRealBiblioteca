@@ -1,13 +1,9 @@
 import "./Servicios.css";
-import servicios1 from "../../../../src/imagenes/servicios-1.jpeg";
+import servicios1 from "../../../../src/imagenes/servicios1.jpeg";
+import servicios2 from "../../../../src/imagenes/servicios2.jpeg";
+import servicios3 from "../../../../src/imagenes/servicios3.jpeg";
 
-// "../../../../src/imagenes/servicios-1.jpeg"
-
-const SERVICES = [
-  servicios1,
-  "../../../../src/imagenes/servicios-2.jpeg",
-  "../../../../src/imagenes/servicios-3.jpeg",
-];
+const SERVICES = [servicios1, servicios2, servicios3];
 
 const Servicios = () => {
   return (

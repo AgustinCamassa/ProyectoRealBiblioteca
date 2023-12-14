@@ -1,4 +1,5 @@
 import "./Asociate.css";
+import asociate from "../../../../src/imagenes/asociate.jpeg";
 
 const Asociate = () => {
   return (
@@ -17,11 +18,7 @@ const Asociate = () => {
 
         <div className="divDetails">
           <div className="divImg">
-            <img
-              src="../../../../src/imagenes/asociate.jpeg"
-              alt="asociateimg"
-              className="asociateImg"
-            />
+            <img src={asociate} alt="asociateimg" className="asociateImg" />
           </div>
           <div className="detailsCont">
             <details className="">

@@ -15,7 +15,7 @@ export default function Footer() {
           <span>Ubicación de la Bilioteca</span>
           <div>
             <Link rel="stylesheet" href="" />
-            Av. Santiago del Estero, 425
+            Mitre S/n, Bandera - Santiago del Estero
           </div>
         </section>
 

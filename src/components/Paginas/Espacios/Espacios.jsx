@@ -4,7 +4,7 @@ import ingreso from "../../../../src/imagenes/ingreso.jpeg";
 import juegoteca1 from "../../../../src/imagenes/juegoteca1.jpeg";
 import juegoteca2 from "../../../../src/imagenes/juegoteca2.jpeg";
 import juegoteca3 from "../../../../src/imagenes/juegoteca3.jpeg";
-import patio1 from "../../../../src/imagenes/patio1.jpeg";
+import sala1 from "../../../../src/imagenes/sala1.jpeg";
 import patio2 from "../../../../src/imagenes/patio2.jpeg";
 import patio3 from "../../../../src/imagenes/patio3.jpeg";
 import estudio1 from "../../../../src/imagenes/estudio1.jpeg";
@@ -13,7 +13,7 @@ import estudio2 from "../../../../src/imagenes/estudio2.jpeg";
 const Espacios = () => {
   const FIRST_SLIDE = [ingreso, juegoteca1, juegoteca2];
 
-  const SECOND_SLIDE = [juegoteca3, patio1, patio2];
+  const SECOND_SLIDE = [juegoteca3, sala1, patio2];
 
   const THIRD_SLIDE = [patio3, estudio1, estudio2];
 

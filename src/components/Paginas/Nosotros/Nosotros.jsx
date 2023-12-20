@@ -1,18 +1,18 @@
 import "./Nosotros.css";
 import Carousel from "react-bootstrap/Carousel";
-import juegoteca1 from "../../../../src/imagenes/juegoteca1.jpeg";
-import juegoteca3 from "../../../../src/imagenes/juegoteca3.jpeg";
-import patio1 from "../../../../src/imagenes/patio1.jpeg";
-import patio2 from "../../../../src/imagenes/patio2.jpeg";
-import patio3 from "../../../../src/imagenes/patio3.jpeg";
-import estudio1 from "../../../../src/imagenes/estudio1.jpeg";
-import estudio2 from "../../../../src/imagenes/estudio2.jpeg";
-import servicios1 from "../../../../src/imagenes/servicios1.jpeg";
-import servicios3 from "../../../../src/imagenes/servicios3.jpeg";
+import nosotros1 from "../../../../src/imagenes/nosotros1.webp";
+import nosotros2 from "../../../../src/imagenes/nosotros2.webp";
+import nosotros3 from "../../../../src/imagenes/nosotros3.webp";
+import nosotros4 from "../../../../src/imagenes/nosotros4.webp";
+import nosotros5 from "../../../../src/imagenes/nosotros5.webp";
+import nosotros6 from "../../../../src/imagenes/nosotros6.webp";
+import nosotros7 from "../../../../src/imagenes/nosotros7.webp";
+import nosotros8 from "../../../../src/imagenes/nosotros8.webp";
+import nosotros9 from "../../../../src/imagenes/nosotros9.webp";
 
-const FIRST_SLIDE = [servicios1, juegoteca1, servicios3];
-const SECOND_SLIDE = [juegoteca3, patio1, patio2];
-const THIRD_SLIDE = [patio3, estudio1, estudio2];
+const FIRST_SLIDE = [nosotros1, nosotros2, nosotros3];
+const SECOND_SLIDE = [nosotros4, nosotros5, nosotros6];
+const THIRD_SLIDE = [nosotros7, nosotros8, nosotros9];
 
 const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE, ...THIRD_SLIDE];
 

@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="contenedorFooter container">
       <article className="parte1Footer row">
         <section className="s1P1 col-lg-3">
-          <img src={logo} alt="" />
+          <img src={logo} alt="logo" />
         </section>
 
         <section className="s2P1 col-lg-3">

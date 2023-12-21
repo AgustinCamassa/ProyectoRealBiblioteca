@@ -12,7 +12,7 @@ export default function Footer() {
         </section>
 
         <section className="s2P1 col-lg-3">
-          <span>Ubicación de la Bilioteca</span>
+          <span>Ubicación de la Biblioteca</span>
           <div>
             <Link rel="stylesheet" href="" />
             Mitre S/n, Bandera - Santiago del Estero

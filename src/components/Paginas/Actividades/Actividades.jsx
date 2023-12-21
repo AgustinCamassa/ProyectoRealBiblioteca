@@ -1,19 +1,18 @@
 import "./Actividades.css";
-import Carousel from "react-bootstrap/Carousel";
 import actividades1 from "../../../../src/imagenes/actividades1.jpeg";
 import actividades2 from "../../../../src/imagenes/actividades2.jpeg";
 import actividades3 from "../../../../src/imagenes/actividades3.jpeg";
 import actividades4 from "../../../../src/imagenes/actividades4.jpeg";
 import actividades5 from "../../../../src/imagenes/actividades5.jpeg";
 import actividades6 from "../../../../src/imagenes/actividades6.jpeg";
-
-const FIRST_SLIDE = [actividades1, actividades2, actividades3];
-
-const SECOND_SLIDE = [actividades4, actividades5, actividades6];
-
-const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE];
+import CarouselMobile from "../../Carousel/CarouselMobile";
+import CarouselImages from "../../Carousel/CarouselImages";
 
 const Actividades = () => {
+  const FIRST_SLIDE = [actividades1, actividades2, actividades3];
+  const SECOND_SLIDE = [actividades4, actividades5, actividades6];
+  const CAROUSEL_PC = [FIRST_SLIDE, SECOND_SLIDE];
+  const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE];
   return (
     <div className="container">
       <h1 className="h1Actividades">Actividades</h1>
@@ -62,45 +61,8 @@ const Actividades = () => {
         </article>
       </section>
       <section>
-        <Carousel data-bs-theme="dark" className="carouselShorterDevices">
-          {CAROUSEL_MOBILE.map((image, index) => (
-            <Carousel.Item interval={3000} key={index}>
-              <div className="d-flex gap-2">
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100 img-fluid"
-                />
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-
-        <Carousel data-bs-theme="dark" className="carouselLongerDevices">
-          <Carousel.Item interval={3000}>
-            <div className="d-flex gap-2">
-              {FIRST_SLIDE.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100  img-fluid"
-                />
-              ))}
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item interval={3000}>
-            <div className="d-flex gap-2">
-              {SECOND_SLIDE.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100  img-fluid"
-                />
-              ))}
-            </div>
-          </Carousel.Item>
-        </Carousel>
+        <CarouselMobile slides={CAROUSEL_MOBILE} />
+        <CarouselImages slides={CAROUSEL_PC} />
       </section>
     </div>
   );

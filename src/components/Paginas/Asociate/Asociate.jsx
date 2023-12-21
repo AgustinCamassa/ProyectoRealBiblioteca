@@ -21,7 +21,7 @@ const Asociate = () => {
             <img src={asociate} alt="asociateimg" className="asociateImg" />
           </div>
           <div className="detailsCont">
-            <details className="">
+            <details name="info" open>
               <summary>Beneficios</summary>
               <ul className="flex flex-column gap-0">
                 <li>
@@ -44,7 +44,7 @@ const Asociate = () => {
                 </li>
               </ul>
             </details>
-            <details>
+            <details name="info">
               <summary>Requisitos</summary>
               <ul className="flex flex-column gap-0">
                 <li>
@@ -56,7 +56,7 @@ const Asociate = () => {
                 </li>
               </ul>
             </details>
-            <details>
+            <details name="info">
               <summary>Formas de Pago</summary>
               <ul className="flex flex-column gap-0">
                 <li>

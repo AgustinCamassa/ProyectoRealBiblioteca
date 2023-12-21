@@ -1,5 +1,4 @@
 import "./Nosotros.css";
-import Carousel from "react-bootstrap/Carousel";
 import nosotros1 from "../../../../src/imagenes/nosotros1.webp";
 import nosotros2 from "../../../../src/imagenes/nosotros2.webp";
 import nosotros3 from "../../../../src/imagenes/nosotros3.webp";
@@ -9,14 +8,15 @@ import nosotros6 from "../../../../src/imagenes/nosotros6.webp";
 import nosotros7 from "../../../../src/imagenes/nosotros7.webp";
 import nosotros8 from "../../../../src/imagenes/nosotros8.webp";
 import nosotros9 from "../../../../src/imagenes/nosotros9.webp";
-
-const FIRST_SLIDE = [nosotros1, nosotros2, nosotros3];
-const SECOND_SLIDE = [nosotros4, nosotros5, nosotros6];
-const THIRD_SLIDE = [nosotros7, nosotros8, nosotros9];
-
-const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE, ...THIRD_SLIDE];
+import CarouselImages from "../../Carousel/CarouselImages";
+import CarouselMobile from "../../Carousel/CarouselMobile";
 
 const Nosotros = () => {
+  const FIRST_SLIDE = [nosotros1, nosotros2, nosotros3];
+  const SECOND_SLIDE = [nosotros4, nosotros5, nosotros6];
+  const THIRD_SLIDE = [nosotros7, nosotros8, nosotros9];
+  const CAROUSEL_PC = [FIRST_SLIDE, SECOND_SLIDE, THIRD_SLIDE];
+  const CAROUSEL_MOBILE = [...FIRST_SLIDE, ...SECOND_SLIDE, ...THIRD_SLIDE];
   return (
     <div className="divContenedorN">
       <article className="primerBloqueN">
@@ -45,58 +45,8 @@ const Nosotros = () => {
             </span>
           </div>
         </section>
-
-        <Carousel data-bs-theme="dark" className="carouselShorterDevices">
-          {CAROUSEL_MOBILE.map((image, index) => (
-            <Carousel.Item interval={3000} key={index}>
-              <div className="d-flex gap-2">
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100 img-fluid"
-                />
-              </div>
-            </Carousel.Item>
-          ))}
-        </Carousel>
-
-        <Carousel data-bs-theme="dark" className="carouselLongerDevices">
-          <Carousel.Item interval={3000}>
-            <div className="d-flex gap-2">
-              {FIRST_SLIDE.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100  img-fluid"
-                />
-              ))}
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item interval={3000}>
-            <div className="d-flex gap-2">
-              {SECOND_SLIDE.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100  img-fluid"
-                />
-              ))}
-            </div>
-          </Carousel.Item>
-
-          <Carousel.Item interval={3000}>
-            <div className="d-flex gap-2">
-              {THIRD_SLIDE.map((image, index) => (
-                <img
-                  key={index}
-                  src={image}
-                  className="d-block imCar w-100  img-fluid"
-                />
-              ))}
-            </div>
-          </Carousel.Item>
-        </Carousel>
+        <CarouselMobile slides={CAROUSEL_MOBILE} />
+        <CarouselImages slides={CAROUSEL_PC} />
       </article>
 
       <article className="artMedio container">

@@ -3,9 +3,8 @@ import servicios1 from "../../../../src/imagenes/servicios1.jpeg";
 import servicios2 from "../../../../src/imagenes/servicios2.jpeg";
 import servicios3 from "../../../../src/imagenes/servicios3.jpeg";
 
-const SERVICES = [servicios1, servicios2, servicios3];
-
 const Servicios = () => {
+  const SERVICES = [servicios1, servicios2, servicios3];
   return (
     <div className="container">
       <h1 className="h1Servicios">Servicios</h1>

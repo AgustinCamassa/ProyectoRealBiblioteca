@@ -108,7 +108,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .h2Tit {
     font-size: 3.5rem;
   }
